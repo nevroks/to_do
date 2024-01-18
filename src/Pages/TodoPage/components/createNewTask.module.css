@@ -1,0 +1,24 @@
+.cntForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+.cntContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: #333333 solid 8px;
+    border-radius: 23px;
+    height: 500px;
+    width: 500px;
+}
+.cntContent button{
+    width: 200px;
+    height: 70px;
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: 'Roboto Slab',sans-serif;
+    font-weight: 400;
+    background: -webkit-linear-gradient(90deg, #ffffff,#b8e4ff);
+    background: linear-gradient(90deg, #ffffff,#b8e4ff);
+}

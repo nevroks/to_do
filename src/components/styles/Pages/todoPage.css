@@ -1,0 +1,33 @@
+.Task{
+    display: grid;
+    max-width: 90%;
+    height: 10%;
+
+
+
+    margin: 1% 10% 1% 10%;
+    border: black solid 1px;
+
+    grid-template-columns: 5% 5fr 3fr;
+    grid-auto-rows:minmax(177px ,auto);
+    align-items: center;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #909090;
+}
+.Task_content{
+    margin-left: 10px;
+}
+.Task_btnSection{
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+.Task_btnSection button{
+    text-align: center;
+}
+.todoPage{
+    width: 100%;
+}

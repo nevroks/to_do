@@ -1,0 +1,13 @@
+.myInp{
+    min-width: 200px;
+    overflow: hidden;
+    margin-top:10px;
+    font-size: 14px;
+    border: 2px solid #fe6637;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
+    overflow-wrap: break-word;
+}
+
